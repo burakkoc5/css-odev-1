@@ -1,0 +1,114 @@
+header{
+    float:left; 
+}
+header a img{
+  height: 100px;
+  width: 100px;
+}
+ul {
+      height: 80px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      
+    }
+    li {
+      float: left;
+      margin: 20px;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 10px 10px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    li a:hover {
+      background-color: rgba(0, 0, 0, 0);
+      color: blue;
+    }
+
+article{
+    margin: 100px;
+    text-align: left;
+} 
+
+article h1{
+    color: bisque;
+    font-size: 64px;
+    font-family: sans-serif;
+    font-style: normal;
+    
+}
+
+
+article h2{
+    margin-top: 0px;
+    color: bisque;
+    font-size: 48px;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+article p{
+  width: 600px;
+  color: bisque;
+  font-size: 14px;
+  font-family: monospace;
+  font-style: italic;
+  font-weight: bold;
+  
+}
+
+
+body {
+    background-image: url('assets/bg2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+.icon{
+    width: 30px;
+    height: 30px;    
+}
+
+footer{   
+  overflow: hidden;
+  position: fixed;
+  left: 0px;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a{
+   
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+footer a.contribution{
+   
+  float:right;
+  display: block;
+  color: white;
+  text-align: center;
+  margin-right: 30px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+footer a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: blue;
+  }
